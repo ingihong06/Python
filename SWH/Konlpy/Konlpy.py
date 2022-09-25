@@ -1,0 +1,10 @@
+from konlpy.tag import Kkma
+kkma = Kkma()
+sen = kkma.sentences('안녕하세요 SWH코딩학원입니다.')
+print(sen)
+noun = kkma.nouns('안녕하세요 SWH코딩학원입니다.')
+print(noun)
+pos = kkma.pos('안녕하세요 SWH코딩학원입니다.')
+print(pos)
+morph = kkma.morphs('안녕하세요 SWH코딩학원입니다.')
+print(morph)
